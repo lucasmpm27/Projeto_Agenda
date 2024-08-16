@@ -15,3 +15,15 @@ git init
 git add .
 git commit -m 'Mensagem'
 git remote add origin URL_DO_GIT
+
+
+--------Migrando a base de dados do Django
+
+python manage.py migrate - migra para ter acessos primeiro a executar
+python manage.py makemigrations - qualquer alteração no model executar este comando
+
+
+--------Criando e modificando a senha de um super usuário Django
+
+python manage.py createsuperuser - cria superusuario
+python manage.py changepassword USERNAME - reseta a senha se esquecer
